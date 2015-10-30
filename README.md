@@ -1,6 +1,6 @@
 # NEW_REACT_DAY
 
-Expanded off of Stephen Grider's ReactStarter https://github.com/StephenGrider/ReactStarter
+Expanded from Stephen Grider's ReactStarter https://github.com/StephenGrider/ReactStarter
 
 
 ###Getting Started###
