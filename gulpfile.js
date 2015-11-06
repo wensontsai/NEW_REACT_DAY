@@ -9,6 +9,7 @@ var server = require('gulp-server-livereload');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
+var util = require('gulp-util');
 
 var notify = function(error) {
   var message = 'In: ';
@@ -69,7 +70,7 @@ gulp.task('serve', function(done) {
           }
         }
       },
-      open: true
+      open: false
     }));
 });
 
